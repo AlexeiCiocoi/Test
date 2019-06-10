@@ -10,7 +10,9 @@
     top: -100px;
     // z-index: -1;
     width: 100%;
-    
+    @media screen and(min-height: 560px){
+        height: 100vh;
+    }
     .img_holder{
         background-image: url('../images/main-img.png');
         background-size: cover;
@@ -35,6 +37,9 @@
     z-index: 1;
     p{
         margin: 40px 0;
+        @include ms($xl){
+            margin-top: 10px;
+        }
     }
     .main-btn{
         @include ms($sm){
@@ -50,6 +55,7 @@
     max-height: 400px;
     font-family: TitilliumLight;
     line-height: 30px;
+   
     @include ms($md){
         max-width: 600px;
         text-align: center;
