@@ -1,0 +1,88 @@
+.footer{
+    background: #0e5f70;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    @include ms($sm){
+        padding: 20px 0;
+    }
+}
+.footer_container{
+    @include ms($md){
+        flex-direction: column-reverse;
+    }
+    
+}
+.footer_navigation-title{
+    color: #ffffff;
+    font-family: MontserratBold;
+    font-size: 14px;
+
+    text-transform: uppercase;
+}
+.footer_link{
+    color: #ffffff;
+    font-family: "Titillium Web";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.footer_nav-list-holder{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+    
+   
+}
+.footer_nav-list:first-child{
+    margin-right: 100px;
+    @include ms($sm){
+        margin-right: 20px;
+    }
+}
+.abonement_form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    input{
+        max-width: 370px;
+    }
+    @include ms($sm){
+        flex-direction: column;
+        margin-bottom: 20px;
+        input{
+            width: 100%;
+        }
+        .main-btn{
+            align-self: flex-start;
+        }
+    }
+}
+.footer_abonement{
+    @include ms($md){
+        .footer_copyright{
+            display: none;
+        }
+    }
+}
+
+.footer_copyright{
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.5s;
+    display: inline-block;
+    margin-top: 30px;
+    &:hover{
+        color: $color-secondary ;
+        transition: 0.5s;
+    }
+    &.mobile{
+        display: none;
+        @include ms($md){
+            display: inline-block;
+            align-self: center;
+        }
+    }
+}

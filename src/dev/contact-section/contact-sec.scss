@@ -1,0 +1,26 @@
+.contact_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 20px 0;
+    width: 100%;
+    background: $color-primary;
+    margin-top: 40px;
+}
+
+.contact_require-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.contact_send-msg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    p{
+        color: white;
+        font-size: 14px;
+    }
+    
+}

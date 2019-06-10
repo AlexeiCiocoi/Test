@@ -1,0 +1,28 @@
+@font-face {
+    font-family: MontserratMedium;
+    src: url('../fonts/Montserrat-Medium.eot') format('embedded-opentype'),
+      url('../fonts/Montserrat-Medium.woff2') format('woff2'), 
+      url('../fonts/Montserrat-Medium.woff') format('woff'),
+      url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.eot') format('embedded-opentype'),
+    //   url('../fonts/Montserrat-Medium.woff2') format('woff2'), 
+      url('../fonts/Montserrat-Bold.woff') format('woff'),
+      url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: TitilliumLight;
+    src: url('../fonts/titilliumweblight.eot') format('embedded-opentype'),
+      url('../fonts/titilliumweblight.woff2') format('woff2'), 
+      url('../fonts/TitilliumWeb-Light.woff') format('woff'),
+      url('../fonts/TitilliumWeb-Light.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: TitilliumBold;
+    src: url('../fonts/titilliumwebbold.eot') format('embedded-opentype'),
+      url('../fonts/titilliumwebbold.woff2') format('woff2'), 
+      url('../fonts/TitilliumWeb-Bold.woff') format('woff'),
+      url('../fonts/TitilliumWeb-Bold.ttf') format('truetype');
+  }
