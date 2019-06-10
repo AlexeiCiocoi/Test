@@ -1,6 +1,6 @@
 import 'babel-polyfill';
 import _ from 'lodash';
-import $ from "jquery"
+// import $ from "jquery"
 
 import './../sass/styles.scss';
 import '../dev/header/header'
@@ -19,7 +19,7 @@ abonentForm.addEventListener('submit',e=>{
   let getFormState = Validation(e.target)
   console.log(getFormState)
   if(getFormState){
-    console.log('submited to submit')
+
   }
 })
 
@@ -29,7 +29,7 @@ contactForm.addEventListener('submit',e=>{
   
   let getFormState = Validation(e.target)
   if(getFormState){
-    console.log('submited to submit')
+ 
   }
   
 })

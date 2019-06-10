@@ -16,7 +16,7 @@ const Validation = (form) =>{
         
 
         if(element.getAttribute('type')=='email'){
-            console.log('THIS IS EMAILL')
+            
             getValidState.push(checkEmail(element))
         }
       
@@ -50,7 +50,7 @@ const checkEmail = elm =>{
 const checkLength = elm =>{
     let min = elm.getAttribute('min')
     let max = elm.getAttribute('max')
-    console.log('bleaaaa min')
+   
     if(elm.value.length<min || elm.value.length>max ){
         getErrorField(elm)
         return false

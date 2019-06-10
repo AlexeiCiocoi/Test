@@ -76,20 +76,3 @@ headerSearchItem()
 setMenuToggleEvent()
 setHoverOnDropdown(width)
 setMenuToggleEvent()
-
-
-
-
-// window.onresize = () => {
-
-
-//     var width = window.innerWidth
-//             || document.documentElement.clientWidth
-//             || document.body.clientWidth;
-
-//    if(width < 1224){
-//     setEventOnNav()
-//    }
-
-//    return
-// }
